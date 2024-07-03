@@ -55,7 +55,7 @@ public class DeluxeHubCommand {
 
             sender.sendMessage("");
             sender.sendMessage(TextUtil.color("&d&lDeluxeHub " + "&fv" + plugin.getDescription().getVersion()));
-            sender.sendMessage(TextUtil.color("&7Author: &fItsLewizzz"));
+            sender.sendMessage(TextUtil.color("&7Author: &fItsLewizzz && imJack_"));
             sender.sendMessage("");
             sender.sendMessage(TextUtil.color(" &d/deluxehub info &8- &7&oDisplays information about the current config"));
             sender.sendMessage(TextUtil.color(" &d/deluxehub scoreboard &8- &7&oToggle the scoreboard"));

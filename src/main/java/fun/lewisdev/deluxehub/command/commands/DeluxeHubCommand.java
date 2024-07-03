@@ -49,7 +49,7 @@ public class DeluxeHubCommand {
         if (args.argsLength() == 0 || args.getString(0).equalsIgnoreCase("help")) {
 
             if (!sender.hasPermission(Permissions.COMMAND_DELUXEHUB_HELP.getPermission())) {
-                sender.sendMessage(TextUtil.color("&8&l> &7Server is running &dDeluxeHub &ev" + pdfFile.getVersion() + " &7By &6ItsLewizzz"));
+                sender.sendMessage(TextUtil.color("&8&l> &7Server is running &dDeluxeHub &ev" + pdfFile.getVersion() + " &7By &6ItsLewizzz && imJack_"));
                 return;
             }
 

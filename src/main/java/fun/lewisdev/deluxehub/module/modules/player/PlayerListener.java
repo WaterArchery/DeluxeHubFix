@@ -108,7 +108,7 @@ public class PlayerListener extends Module {
         // Clear the player inventory
         if (clearInventory) player.getInventory().clear();
 
-        Bukkit.getScheduler().scheduleSyncDelayedTask(getPlugin(), () -> {
+        Bukkit.getScheduler().runTaskLaterAsynchronously(getPlugin(), () -> {
             // Join events
             executeActions(player, joinActions);
 
